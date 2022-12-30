@@ -8,7 +8,7 @@ describe('Submit Practice Form successful', () => {
         cy.visit("https://demoqa.com/automation-practice-form")
     })
 
-    Cypress.on('uncaught:exception', (err, runnable) => {
+    Cypress.on('uncaught:exception', (err, runnable) => {1920
         return false
     })
 
